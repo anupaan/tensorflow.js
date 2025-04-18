@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TensorFlow.js E2E Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>TensorFlow.js E2E Example</h1>
+    <button onclick="trainModel()">Train Model</button>
+    <button onclick="testModel()">Test Model</button>
+    <p id="status">Status: Waiting</p>
+    <canvas id="mnistCanvas" width="280px" height="280px" style="image-rendering: pixelated;"></canvas>
+    <canvas id="drawCanvas" width="280px" height="280px" style="image-rendering: pixelated;"></canvas>
+</body>
+</html>
