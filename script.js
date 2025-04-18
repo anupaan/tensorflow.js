@@ -106,7 +106,7 @@ async function testModel() {
         document.getElementById('status').innerText = `Predicted Digit: ${predictedClass} (Actual: ${labels[index]})`;
         drawMnistImage(sample, "mnistCanvas");
     } catch (error) {
-        console.error("Prediction error:", error);
+        console.error("Prediction error: ", error);
         document.getElementById('status').innerText = 'Status: Prediction Error';
     }
 }
